@@ -88,13 +88,14 @@ set linebreak
 
 " some extra commands for HTML editing
 nmap ,mh wbgueyei<<ESC>ea></<ESC>pa><ESC>bba
-nmap ,h1 _i<h1><ESC>A</h1><ESC>
-nmap ,h2 _i<h2><ESC>A</h2><ESC>
-nmap ,h3 _i<h3><ESC>A</h3><ESC>
-nmap ,h4 _i<h4><ESC>A</h4><ESC>
-nmap ,h5 _i<h5><ESC>A</h5><ESC>
-nmap ,h6 _i<h6><ESC>A</h6><ESC>
-nmap ,hp _i<p><ESC>A</p><ESC>
+nmap ,h1 _i<h1><ESC>A</h1><ESC>0
+nmap ,h2 _i<h2><ESC>A</h2><ESC>0
+nmap ,h3 _i<h3><ESC>A</h3><ESC>0
+nmap ,h4 _i<h4><ESC>A</h4><ESC>0
+nmap ,h5 _i<h5><ESC>A</h5><ESC>0
+nmap ,h6 _i<h6><ESC>A</h6><ESC>0
+nmap ,hp _i<p><ESC>A</p><ESC>0
+nmap ,hl _i<li><ESC>A</li><ESC>0
 nmap ,hb wbi<b><ESC>ea</b><ESC>bb
 nmap ,he wbi<em><ESC>ea</em><ESC>bb
 nmap ,hi wbi<i><ESC>ea</i><ESC>bb
