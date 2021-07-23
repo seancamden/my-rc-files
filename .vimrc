@@ -105,6 +105,10 @@ nmap ,hu wbi<u><ESC>ea</i><ESC>bb
 nmap ,hs wbi<strong><ESC>ea</strong><ESC>bb
 nmap ,ht wbi<tt><ESC>ea</tt><ESC>bb
 nmap ,hx wbF<df>f<df>
+nmap ,h[ :%s@\[\([^\]]\+\)\]\[\([^\]]\+\)\]@<a href="\2">\1</a>@<cr>
+" for URLs with the format [url][description]
+nmap ,h9 :%s@\[\([^\]]\+\)\](\([^\]]\+\))@<a href="\2">\1</a>@<cr>
+" for URLs with the format (url)[description]
 
 set expandtab
 set tabstop=2
