@@ -95,6 +95,8 @@ nmap ,h4 _i<h4><ESC>A</h4><ESC>0
 nmap ,h5 _i<h5><ESC>A</h5><ESC>0
 nmap ,h6 _i<h6><ESC>A</h6><ESC>0
 nmap ,hp _i<p><ESC>A</p><ESC>0
+vmap ,ha di<a href="<ESC>pa"><ESC>pa</a><ESC>
+nmap ,hA _d$i<a href="<ESC>pa"><ESC>pa</a><ESC>0
 nmap ,hl _i<li><ESC>A</li><ESC>0
 nmap ,hb wbi<b><ESC>ea</b><ESC>bb
 nmap ,he wbi<em><ESC>ea</em><ESC>bb
